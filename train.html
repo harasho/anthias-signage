@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="300">
+  <style>
+    body {
+      background: #ffffff;
+      color: #000000;
+      font-family: sans-serif;
+      font-size: 2.5em;
+      padding: 30px;
+    }
+    .line {
+      margin-bottom: 1em;
+    }
+    .ok {
+      color: #000000;  /* 黒：正常 */
+    }
+    .delay {
+      color: #d35400;  /* 橙：遅延 */
+    }
+    .stop {
+      color: #c0392b;  /* 赤：運転見合わせ */
+    }
+  </style>
+</head>
+<body>
+  <div class="line"><strong>東急東横線：</strong> <span class="ok">平常運転</span></div>
+  <div class="line"><strong>京急本線：</strong> <span class="delay">5分程度の遅れ</span></div>
+  <div class="line"><strong>南武線：</strong> <span class="ok">平常運転</span></div>
+  <div class="line"><strong>横須賀線：</strong> <span class="stop">運転見合わせ</span></div>
+  <div class="line"><strong>湘南新宿ライン：</strong> <span class="ok">平常運転</span></div>
+</body>
+</html>
